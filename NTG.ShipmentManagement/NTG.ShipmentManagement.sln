@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTG.ShipmentManagement.Api", "NTG.ShipmentManagement.Api\NTG.ShipmentManagement.Api.csproj", "{23692C6C-042C-432A-B37F-CA7E2E691711}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4B081448-3A2E-4C48-B54C-BF9FD28AC178}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D3E816A3-322E-41D6-B0A2-8B277253DCC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FAC57025-F8B7-4DF4-A61C-22037BDB0768}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E5419436-FE76-4AD5-9E69-81FA97463EC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{691E6B44-68A6-4557-A047-0588843F879B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTG.ShipmentManagement.Applicaiton", "NTG.ShipmentManagement.Applicaiton\NTG.ShipmentManagement.Applicaiton.csproj", "{4D070F66-195D-4D9C-B0E8-DE0CC98F8D20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTG.ShipmentManagement.Domain", "NTG.ShipmentManagement.Domain\NTG.ShipmentManagement.Domain.csproj", "{F9491496-34B2-4BD2-8F57-81B64591E2FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTG.ShipmentManagement.Persistence", "NTG.ShipmentManagement.Persistence\NTG.ShipmentManagement.Persistence.csproj", "{06DEC857-DF5E-45FD-9E18-70FF99DB4890}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTG.ShipmentManagement.Infrastructure", "NTG.ShipmentManagement.Infrastructure\NTG.ShipmentManagement.Infrastructure.csproj", "{FBC7494A-5001-428A-AB30-95E8D880DC2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTG.ShipmentManagement.Identity", "NTG.ShipmentManagement.Identity\NTG.ShipmentManagement.Identity.csproj", "{F2C1C88A-F000-4BEA-B288-40C5D229B3E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTG.Shipment.UnitTest", "NTG.Shipment.UnitTest\NTG.Shipment.UnitTest.csproj", "{65C7E556-F8EE-4161-A616-E5B9D22D443E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23692C6C-042C-432A-B37F-CA7E2E691711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23692C6C-042C-432A-B37F-CA7E2E691711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23692C6C-042C-432A-B37F-CA7E2E691711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23692C6C-042C-432A-B37F-CA7E2E691711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D070F66-195D-4D9C-B0E8-DE0CC98F8D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D070F66-195D-4D9C-B0E8-DE0CC98F8D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D070F66-195D-4D9C-B0E8-DE0CC98F8D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D070F66-195D-4D9C-B0E8-DE0CC98F8D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9491496-34B2-4BD2-8F57-81B64591E2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9491496-34B2-4BD2-8F57-81B64591E2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9491496-34B2-4BD2-8F57-81B64591E2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9491496-34B2-4BD2-8F57-81B64591E2FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DEC857-DF5E-45FD-9E18-70FF99DB4890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DEC857-DF5E-45FD-9E18-70FF99DB4890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DEC857-DF5E-45FD-9E18-70FF99DB4890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DEC857-DF5E-45FD-9E18-70FF99DB4890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC7494A-5001-428A-AB30-95E8D880DC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC7494A-5001-428A-AB30-95E8D880DC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC7494A-5001-428A-AB30-95E8D880DC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC7494A-5001-428A-AB30-95E8D880DC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C1C88A-F000-4BEA-B288-40C5D229B3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C1C88A-F000-4BEA-B288-40C5D229B3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C1C88A-F000-4BEA-B288-40C5D229B3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C1C88A-F000-4BEA-B288-40C5D229B3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C7E556-F8EE-4161-A616-E5B9D22D443E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C7E556-F8EE-4161-A616-E5B9D22D443E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C7E556-F8EE-4161-A616-E5B9D22D443E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C7E556-F8EE-4161-A616-E5B9D22D443E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23692C6C-042C-432A-B37F-CA7E2E691711} = {D3E816A3-322E-41D6-B0A2-8B277253DCC6}
+		{D3E816A3-322E-41D6-B0A2-8B277253DCC6} = {4B081448-3A2E-4C48-B54C-BF9FD28AC178}
+		{FAC57025-F8B7-4DF4-A61C-22037BDB0768} = {4B081448-3A2E-4C48-B54C-BF9FD28AC178}
+		{E5419436-FE76-4AD5-9E69-81FA97463EC3} = {4B081448-3A2E-4C48-B54C-BF9FD28AC178}
+		{4D070F66-195D-4D9C-B0E8-DE0CC98F8D20} = {FAC57025-F8B7-4DF4-A61C-22037BDB0768}
+		{F9491496-34B2-4BD2-8F57-81B64591E2FA} = {FAC57025-F8B7-4DF4-A61C-22037BDB0768}
+		{06DEC857-DF5E-45FD-9E18-70FF99DB4890} = {E5419436-FE76-4AD5-9E69-81FA97463EC3}
+		{FBC7494A-5001-428A-AB30-95E8D880DC2B} = {E5419436-FE76-4AD5-9E69-81FA97463EC3}
+		{F2C1C88A-F000-4BEA-B288-40C5D229B3E6} = {E5419436-FE76-4AD5-9E69-81FA97463EC3}
+		{65C7E556-F8EE-4161-A616-E5B9D22D443E} = {691E6B44-68A6-4557-A047-0588843F879B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21EE171B-5CBB-4380-8454-244A1D12F1FF}
+	EndGlobalSection
+EndGlobal

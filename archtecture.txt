@@ -1,0 +1,10 @@
+System was designed with CQRS and repository patterns
+
+Used the clean atchitecture concepts
+
+Applicaiton layer is loosely coupled with persistance, identity and infrstructure projects
+they can be changed or completly replaced without changing the core business logic
+Code is highly testable with mock services
+Each operation uses a separate class to keep the code small and maintainable
+All the behaviours are grouped by features
+with cqrs there is a clear separation in the code read and writes. Idea is to scale the applicaiton 

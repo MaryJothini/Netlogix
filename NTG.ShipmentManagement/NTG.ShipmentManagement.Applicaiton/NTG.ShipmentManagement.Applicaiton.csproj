@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Feature\" />
+    <None Remove="Feature\ShipmentReqest\" />
+    <None Remove="AutoMapper" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Contracts\" />
+    <None Remove="Contracts\Persistence\" />
+    <None Remove="Contracts\JsonValidators\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contracts\Persistence\" />
+    <Folder Include="Contracts\JsonValidators\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.14" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NTG.ShipmentManagement.Domain\NTG.ShipmentManagement.Domain.csproj" />
+  </ItemGroup>
+</Project>

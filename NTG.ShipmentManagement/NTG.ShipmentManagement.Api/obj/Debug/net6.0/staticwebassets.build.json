@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5qSjjj8X69fLNocVuXUYUFkroKPD0Gdhp9ziWpUAVmI=",
+  "Source": "NTG.ShipmentManagement.Api",
+  "BasePath": "_content/NTG.ShipmentManagement.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

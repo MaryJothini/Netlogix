@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="{23692C6C-042C-432A-B37F-CA7E2E691711}|Default">
+  <MonoDevelop.Ide.ItemProperties.src.Infrastructure.NTG.ShipmentManagement.Persistence FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.Api.NTG.ShipmentManagement.Api FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.src.Infrastructure.NTG.ShipmentManagement.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.src.Core.NTG.ShipmentManagement.Applicaiton FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.src.Core.NTG.ShipmentManagement.Domain FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../NTG.ShipmentManagement.Infrastructure/JsonParser.cs">
+    <Files>
+      <File FileName="../NTG.ShipmentManagement.Applicaiton/Contracts/Persistence/IShipmentOrderRepository.cs" Line="6" Column="46" />
+      <File FileName="../NTG.ShipmentManagement.Persistence/Repositories/GenericRepository.cs" Line="15" Column="47" />
+      <File FileName="../NTG.ShipmentManagement.Applicaiton/Contracts/JsonValidators/IJsonParser.cs" Line="9" Column="1" />
+      <File FileName="../NTG.ShipmentManagement.Infrastructure/JsonParser.cs" Line="10" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NTG.ShipmentManagement" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="Api" expanded="True">
+                <Node name="NTG.ShipmentManagement.Api" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Properties" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Core" expanded="True">
+                <Node name="NTG.ShipmentManagement.Applicaiton" expanded="True">
+                  <Node name="Contracts" expanded="True">
+                    <Node name="JsonValidators" expanded="True" />
+                    <Node name="Persistence" expanded="True" />
+                  </Node>
+                  <Node name="Feature" expanded="True" />
+                </Node>
+                <Node name="NTG.ShipmentManagement.Domain" expanded="True">
+                  <Node name="ShipmentRequest" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Infrastructure" expanded="True">
+                <Node name="NTG.ShipmentManagement.Infrastructure" expanded="True">
+                  <Node name="Dependencies" expanded="True" />
+                </Node>
+                <Node name="NTG.ShipmentManagement.Persistence" expanded="True">
+                  <Node name="Repositories" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
